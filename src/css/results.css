@@ -1,0 +1,327 @@
+.results_wrapper {
+    min-height: calc(100vh - 70px);
+    background: #f8f4ef;
+    padding: 3rem 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.results_header {
+    text-align: center;
+}
+
+.results_title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: clamp(1.8rem, 3vw, 2.6rem);
+    font-weight: 800;
+    color: #1e3d2f;
+    margin: 0 0 0.5rem 0;
+}
+
+.results_subtitle {
+    font-family: 'DM Sans', sans-serif;
+    color: #6b7c74;
+    margin: 0 0 1.5rem 0;
+}
+
+.results_new_btn {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    background: #2d6a4f;
+    color: #fff;
+    border: none;
+    padding: 0.65rem 1.5rem;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.results_new_btn:hover {
+    background: #1e3d2f;
+    transform: translateY(-1px);
+}
+
+.shopping_hero {
+    background: #1e3d2f;
+    border-radius: 24px;
+    padding: 2.5rem;
+    animation: fadeUp 0.5s ease both;
+}
+
+.shopping_hero_header {
+    margin-bottom: 1.5rem;
+}
+
+.shopping_hero_title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: #ffffff;
+    margin: 0 0 0.3rem 0;
+}
+
+.shopping_hero_sub {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.85rem;
+    color: #a8c5b5;
+    margin: 0;
+}
+
+.shopping_hero_list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 10px;
+}
+
+.shopping_hero_item {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    padding: 0.8rem 1rem;
+    background: rgba(255, 255, 255, 0.07);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    transition: background 0.2s ease;
+}
+
+.shopping_hero_item:hover {
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.shopping_check {
+    color: #52b788;
+    font-weight: 700;
+    font-size: 0.9rem;
+    flex-shrink: 0;
+}
+
+.shopping_name {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9rem;
+    color: #ffffff;
+    flex: 1;
+}
+
+.shopping_qty {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.8rem;
+    color: #a8c5b5;
+    flex-shrink: 0;
+}
+
+.recipes_section {
+    animation: fadeUp 0.5s ease 0.15s both;
+}
+
+.results_section_title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: #1e3d2f;
+    margin: 0 0 1.2rem 0;
+}
+
+.recipes_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.recipe_card {
+    background: #ffffff;
+    border: 1px solid #ede8e1;
+    border-radius: 20px;
+    padding: 1.8rem;
+}
+
+.recipe_card_header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.recipe_emoji {
+    font-size: 2.2rem;
+}
+
+.recipe_meal_label {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #2d6a4f;
+    background: #e8f5ee;
+    padding: 0.2rem 0.7rem;
+    border-radius: 50px;
+    display: inline-block;
+    margin-bottom: 0.3rem;
+}
+
+.recipe_name {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #1e3d2f;
+    margin: 0;
+}
+
+.recipe_section {
+    margin-bottom: 1.2rem;
+}
+
+.recipe_section_label {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #a0a0a0;
+    margin: 0 0 0.6rem 0;
+}
+
+.recipe_ingredients {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.recipe_ingredients li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+    background: #f8f4ef;
+    border-radius: 8px;
+}
+
+.ing_item { color: #1e3d2f; font-weight: 500; }
+.ing_quantity { color: #6b7c74; font-size: 0.85rem; }
+
+.recipe_steps {
+    padding-left: 1.2rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.recipe_steps li {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.9rem;
+    color: #3d3d3d;
+    line-height: 1.6;
+}
+
+@keyframes fadeUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 1024px) {
+    .results_wrapper { padding: 2rem; }
+    .shopping_hero_list { grid-template-columns: repeat(2, 1fr); }
+    .recipes_grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 600px) {
+    .shopping_hero_list { grid-template-columns: 1fr; }
+}
+
+.email_section {
+    border-top: 2px dashed #ddd5c8;
+    padding: 3rem 0 1rem 0;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 2rem;
+}
+
+.email_section_title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-style: italic;
+    color: #1e3d2f;
+    margin: 0 0 0.4rem 0;
+}
+
+.email_section_sub {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.88rem;
+    line-height: 1.65;
+    color: #8a7968;
+    max-width: 380px;
+    white-space: nowrap;
+    margin: 0;
+}
+
+.email_form {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    flex-shrink: 0;
+    border: 1.5px solid #1e3d2f;
+}
+
+.email_input {
+    width: 240px;
+    padding: 0.75rem 1rem;
+    border: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.88rem;
+    color: #1e3d2f;
+    background: transparent;
+    outline: none;
+}
+
+.email_input::placeholder {
+    color: #b0a898;
+}
+
+.email_btn {
+    padding: 0.75rem 1.2rem;
+    border: none;
+    border-left: 1.5px solid #1e3d2f;
+    background: #1e3d2f;
+    color: #f8f4ef;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    letter-spacing: 0.03em;
+    transition: background 0.2s ease, color 0.2s ease;
+    white-space: nowrap;
+}
+
+.email_btn:hover {
+    background: #f8f4ef;
+    color: #1e3d2f;
+}
+
+@media (max-width: 768px) {
+    .email_section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .email_form {
+        width: 100%;
+    }
+
+    .email_input {
+        width: 100%;
+    }
+}
