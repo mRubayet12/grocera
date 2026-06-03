@@ -3,7 +3,7 @@ import os
 from flask import request, jsonify
 import resend
 
-resend.api_key = os.getenv("GEMINI_API_KEY")
+resend.api_key = os.getenv("RESEND_API_KEY")
 
 @app.route("/email/send", methods = ["POST"])
 def send_email():
