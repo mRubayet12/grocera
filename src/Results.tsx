@@ -11,7 +11,7 @@ function Results() {
 
     const handleEmail = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault()
-            await fetch("http://127.0.0.1:5000/email/send", {
+            await fetch("https://grocera-dthp.onrender.com/email/send", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ 
