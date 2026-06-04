@@ -1,0 +1,76 @@
+.privacy_wrapper {
+    min-height: calc(100vh - 70px);
+    background-color: #f8f4ef;
+    padding: 4rem 1.5rem;
+}
+
+.privacy_container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: 1px dashed #c8bfb0;
+    padding: 3rem 3.5rem;
+}
+
+.privacy_title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 2.2rem;
+    font-style: italic;
+    color: #1e3d2f;
+    margin: 0 0 0.4rem 0;
+}
+
+.privacy_updated {
+    font-size: 0.85rem;
+    color: #a0a0a0;
+    margin: 0 0 2.5rem 0;
+}
+
+.privacy_section {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #f0ebe4;
+}
+
+.privacy_section:last-of-type {
+    border-bottom: none;
+}
+
+.privacy_heading {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 1.1rem;
+    color: #1e3d2f;
+    margin: 0 0 0.8rem 0;
+}
+
+.privacy_subheading {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #2d6a4f;
+    margin: 1rem 0 0.4rem 0;
+}
+
+.privacy_text {
+    font-size: 0.92rem;
+    color: #4a4a4a;
+    line-height: 1.75;
+    margin: 0 0 0.6rem 0;
+}
+
+.privacy_link {
+    color: #2d6a4f;
+    text-decoration: underline;
+}
+
+.privacy_link:hover {
+    color: #1b4332;
+}
+
+.privacy_footer {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #a0a0a0;
+    text-align: center;
+    margin-top: 2rem;
+}
