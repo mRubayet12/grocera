@@ -6,6 +6,7 @@ import CreateList from './CreateList.tsx'
 import Results from './Results.tsx'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import PrivacyPolicy from './PrivacyPolicy.tsx'
+import { Analytics } from '@vercel/analytics/react'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/privacy" element={<PrivacyPolicy />} />
       </Routes>
       <Footer />
+      <Analytics />
     </BrowserRouter>
   )
 }
